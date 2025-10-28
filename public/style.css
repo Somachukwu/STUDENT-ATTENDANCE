@@ -169,6 +169,7 @@
         }
 
         .nav-container {
+            max-width: 1200px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -817,8 +818,7 @@
             letter-spacing: 1px;
         }
 
-        .form-group input,
-        .form-group textarea {
+        .form-group input{
             width: 100%;
             padding: 15px;
             background: rgba(255, 255, 255, 0.05);
@@ -830,18 +830,13 @@
             font-family: 'Rajdhani', sans-serif;
         }
 
-        .form-group input:focus,
-        .form-group textarea:focus {
+        .form-group input:focus{
             outline: none;
             border-color: #FF5E00;
             box-shadow: 0 0 20px rgba(255, 94, 0, 0.3);
             background: rgba(255, 255, 255, 0.08);
         }
 
-        .form-group textarea {
-            min-height: 120px;
-            resize: vertical;
-        }
 
         .submit-btn {
             width: 100%;
@@ -905,41 +900,6 @@
             opacity: 0.8;
         }
 
-        /* Map Section */
-        .map-container {
-            margin-top: 40px;
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 94, 0, 0.2);
-            border-radius: 10px;
-            padding: 20px;
-            backdrop-filter: blur(10px);
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .map-placeholder {
-            text-align: center;
-            opacity: 0.6;
-        }
-
-        .map-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(45deg, transparent 40%, rgba(255, 94, 0, 0.1) 50%, transparent 60%);
-            animation: scan 3s linear infinite;
-        }
-
-        @keyframes scan {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
-        }
 
         /* Footer */
         footer {
