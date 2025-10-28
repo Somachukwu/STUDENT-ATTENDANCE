@@ -295,3 +295,26 @@
         .menu-toggle.active span:nth-child(3) {
             transform: rotate(-45deg) translate(5px, -5px);
         }
+
+        .popup {
+            visibility: hidden;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            padding: 15px;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            font-weight: bold;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            transition: visibility 0s, opacity 0.5s linear;
+            opacity: 0;
+        }
+
+        .popup.show {
+            visibility: visible;
+            opacity: 1;
+        }
+

@@ -54,7 +54,7 @@ app.post("/add-student", (req, res) => {
       console.error("❌ MySQL Error:", err);
       return res.status(500).json({ message: "Database error" });
     }
-    res.json({ message: "✅ Student added successfully!" });
+    res.json({ message: "✅ Paticipant added successfully!" });
   });
 });
 

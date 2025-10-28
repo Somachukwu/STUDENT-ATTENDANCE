@@ -14,9 +14,16 @@ form.addEventListener('submit', async (e) => {
     body: JSON.stringify({ name, email, address, occupation })
   });
 
-  alert("Student added successfully!");
+  showSuccess();
   form.reset();
 });
+
+function showSuccess() {
+  const popup = document.getElementById('successPopup');
+  popup.classList.add('show');
+  setTimeout(() => popup.classList.remove('show'), 3000);
+}
+
 
 //FRONTEND
 
