@@ -489,7 +489,7 @@
         /* Contact Section */
         .contact {
             padding: 100px 20px;
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
         }
 
@@ -698,6 +698,9 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            body {
+                width: 100vw;
+            }
             nav {
                 padding: 15px 20px;
             }
