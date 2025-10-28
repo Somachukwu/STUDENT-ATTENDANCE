@@ -34,7 +34,7 @@ db.connect(err => {
 });
 
 // ✅ Route: Home page
-app.get("/", (req, res) => {
+app.get(["/", "/home"], (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
