@@ -157,7 +157,7 @@
             padding: 20px 50px;
             background: rgba(10, 10, 10, 0.8);
             backdrop-filter: blur(10px);
-            z-index: 1000;
+            /* z-index: 1000; */
             transition: all 0.3s ease;
             border-bottom: 1px solid rgba(255, 94, 0, 0.1);
         }
