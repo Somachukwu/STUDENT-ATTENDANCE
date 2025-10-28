@@ -10,11 +10,11 @@ yearInput.type = 'number';
 yearInput.id = 'year';
 yearInput.placeholder = 'Year';
 yearInput.min = 2000;
-yearInput.style.marginRight = '10px';
+// yearInput.style.marginRight = '10px';
 
 dayInput.type = 'date';
 dayInput.id = 'day';
-dayInput.style.marginLeft = '10px';
+// dayInput.style.marginLeft = '10px';
 
 filtersContainer.insertBefore(yearInput, searchBox);
 filtersContainer.appendChild(dayInput);
