@@ -1063,6 +1063,11 @@
                 display: flex;
             }
 
+            .logo-text {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
             .hero-content {
                 padding: 0 20px;
             }
